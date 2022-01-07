@@ -1,4 +1,4 @@
-const btn = document.getElementById('interval')
+const  = document.getElementById('interval')
 const rxjsBtn = document.getElementById('rxjs')
 const display = document.querySelector('#problem .result')
 
