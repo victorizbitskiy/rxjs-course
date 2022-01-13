@@ -60,8 +60,11 @@ import { scan } from 'rxjs/operators'
 //   canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height)
 // })
 
-const sub = interval(500).subscribe(v => console.log(v))
+// const sub = interval(500).subscribe(v => console.log(v))
 
-setTimeout(() => {
-  sub.unsubscribe()
-}, 4000)
+// setTimeout(() => {
+//   sub.unsubscribe()
+// }, 4000)
+
+timer(250).subscribe(v => console.log(v))
+
