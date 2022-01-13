@@ -66,5 +66,7 @@ import { scan } from 'rxjs/operators'
 //   sub.unsubscribe()
 // }, 4000)
 
-timer(250).subscribe(v => console.log(v))
+// timer(250).subscribe(v => console.log(v))
+
+range(42, 10).subscribe(v => console.log(v))
 
